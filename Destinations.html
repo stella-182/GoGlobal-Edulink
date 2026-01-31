@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations - GoGlobal EduLink</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">GoGlobal EduLink</div>
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="destinations.html" class="active">DESTINATIONS</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="apply.html">APPLY NOW</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay"></div>
+    
+    <!-- Mobile Navigation Menu -->
+    <ul class="mobile-nav-links">
+        <button class="mobile-menu-close">×</button>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="destinations.html" class="active">DESTINATIONS</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="about.html">ABOUT US</a></li>
+        <li><a href="apply.html">APPLY NOW</a></li>
+    </ul>
+
+    <!-- Page Hero -->
+    <div class="page-hero">
+        <h1>STUDY DESTINATIONS</h1>
+        <p style="font-size: 1.2rem; margin-top: 1rem;">Choose your dream destination and start your global journey</p>
+    </div>
+
+    <!-- Destinations Grid with Images -->
+    <section class="destinations-page">
+        <h2 class="section-title">EXPLORE OUR DESTINATIONS</h2>
+        <div class="destinations-grid">
+            <div class="dest-card" data-country="SPAIN">
+                <img src="image/spain.jpg" alt="Spain" class="dest-card-img">
+                <div class="dest-card-content">
+                    <span class="dest-flag">🇪🇸</span>
+                    <h3>SPAIN</h3>
+                    <p>World-class education & vibrant culture</p>
+                </div>
+            </div>
+            <div class="dest-card" data-country="UK">
+                <img src="image/uk.jpg" alt="United Kingdom" class="dest-card-img">
+                <div class="dest-card-content">
+                    <span class="dest-flag">🇬🇧</span>
+                    <h3>UNITED KINGDOM</h3>
+                    <p>Prestigious universities & research</p>
+                </div>
+            </div>
+            <div class="dest-card" data-country="CANADA">
+                <img src="image/canada.jpg" alt="Canada" class="dest-card-img">
+                <div class="dest-card-content">
+                    <span class="dest-flag">🇨🇦</span>
+                    <h3>CANADA</h3>
+                    <p>Safe, welcoming & excellent opportunities</p>
+                </div>
+            </div>
+            <div class="dest-card" data-country="CHINA">
+                <img src="image/china.jpg" alt="China" class="dest-card-img">
+                <div class="dest-card-content">
+                    <span class="dest-flag">🇨🇳</span>
+                    <h3>CHINA</h3>
+                    <p>Emerging global education hub</p>
+                </div>
+            </div>
+            <div class="dest-card" data-country="INDIA">
+                <img src="image/india.jpg" alt="India" class="dest-card-img">
+                <div class="dest-card-content">
+                    <span class="dest-flag">🇮🇳</span>
+                    <h3>INDIA</h3>
+                    <p>Top technical & business programs</p>
+                </div>
+            </div>
+            <div class="dest-card" data-country="AUSTRALIA">
+                <img src="image/australia.jpg" alt="Australia" class="dest-card-img">
+                <div class="dest-card-content">
+                    <span class="dest-flag">🇦🇺</span>
+                    <h3>AUSTRALIA</h3>
+                    <p>World-ranking & excellent lifestyle</p>
+                </div>
+            </div>
+            <div class="dest-card" data-country="SINGAPORE">
+                <img src="image/singapore.jpg" alt="Singapore" class="dest-card-img">
+                <div class="dest-card-content">
+                    <span class="dest-flag">🇸🇬</span>
+                    <h3>SINGAPORE</h3>
+                    <p>Asia's leading education hub</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Country Info Section -->
+    <section id="country-description" class="country-info" style="display: none;">
+        <div class="country-info-header">
+            <span id="info-flag" class="info-flag"></span>
+            <h2 id="info-title">Study in [Country]</h2>
+            <button class="close-info" onclick="closeCountryInfo()">×</button>
+        </div>
+        <div class="country-info-content">
+            <div class="info-section">
+                <h3>🎯 Why Study Here?</h3>
+                <p id="info-reason"></p>
+            </div>
+            <div class="info-section">
+                <h3>📚 Popular Courses</h3>
+                <p id="info-courses"></p>
+            </div>
+            <div class="info-section">
+                <h3>💰 Estimated Costs</h3>
+                <p id="info-costs"></p>
+            </div>
+            <div class="info-section">
+                <h3>📋 Visa Requirements</h3>
+                <p id="info-visa"></p>
+            </div>
+            <div class="info-cta">
+                <a href="apply.html" class="cta-button">APPLY NOW</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 GoGlobal EduLink | Your Bridge to Global Excellence</p>
+        <p>📍 Dar es Salaam, TZ | 📍 Barcelona, Spain | 📧 goglobaledulink@gmail.com | 📞 +346 015 874 12</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
